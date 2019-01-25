@@ -1,0 +1,151 @@
+{
+    "autors":
+    [
+        {
+           "name":null,
+           "secondName":null,
+           "age":null,
+           "birthplace":null,
+           "avatar":null,
+           "photosGallery":[],
+           "biography":{
+              "year":[],
+              "event":[]
+           },
+           "video":null,
+           "work":{
+               "book":{
+                 "photo":[],
+                 "name":[]
+               },
+               "date":[]
+           }
+
+        },
+        {
+            "name":"Янка",
+            "secondName":"Брыль",
+            "age":88,
+            "birthplace":"Одесса",
+            "avatar":"https://nn.by/img/w800d4/photos/z_2016_07/j_b-xh6tk.jpg",
+            "photosGallery":["https://www.belta.by/uploads/lotus/news/000027_C98176F052699271432581710024A4D9_94758.jpg",
+                             "https://gdb.rferl.org/E7AF19C2-B738-4369-B4E1-38889FE4C34F_w250_r0_s.jpg",
+                             "http://sozvuchie.by/media/k2/items/cache/531120361ba53e7b27c00b3fd3134e91_XL.jpg",
+                             "https://img.tyt.by/n/04/1/yanka_bryl_1.jpg",
+                             "http://bellit.by/images/zmest/bryl.jpg"],
+            "biography":{
+               "year":[1917,
+                       1922,
+                       1939,
+                       1945,
+                       1994],
+               "event":["Рождение",
+                        "Вернулся на родину отца в деревню Загорье",
+                        "Был призван в войско польское",
+                        "Стал членом Союза писателей СССР",
+                        "Почётный член Национальной академии наук Беларусии"]
+            },
+            "video":"https://www.youtube.com/watch?v=Ci1yzGPisVA",
+            "work":{
+                "book":{
+                  "photo":["http://borlib.by/images/saek/bryl-ya-vybranyya-apavyadanni---0001.jpg",
+                           "https://j.livelib.ru/workpic/1002637598/200/8341/Yanka_Bryl__Nemanskie_kazaki.jpg",
+                           "https://i.livelib.ru/workpic/1002702739/200/e33a/Yanka_Bryl__Sirochy_hleb.jpg",
+                           "https://j.livelib.ru/boocover/1000747034/140/6ae2/Yanka_Bryl__Pishu_yak_zhyvu.jpg"],
+                  "name":["Апавяданні",
+                          "Нёманскія казакі",
+                          "Сірочы хлеб",
+                          "Пішу як жыву"]
+                },
+                "date":[1946,
+                        1947,
+                        1947,
+                        1994]
+            }
+ 
+         },
+         {
+            "name":"Пятрусь",
+            "secondName":"Броука",
+            "age":74,
+            "birthplace":"Путилковичи",
+            "avatar":"https://belarusianheroes.com/img/hero/medium5982277b9f1b5.jpg",
+            "photosGallery":["https://upload.wikimedia.org/wikipedia/be-x-old/thumb/a/a4/Piatru%C5%9B_Bro%C7%94ka.jpg/245px-Piatru%C5%9B_Bro%C7%94ka.jpg",
+                             "https://cdn11.img.sputnik.by/images/102139/88/1021398892.jpg","https://nn.by/img/w956d4/photos/z_2017_03/brouka-tspom.jpg",
+                             "http://content.nlb.by/content/dav/nlb/portal/content/File/Portal/InfoResoursy/WW1/P_Brouka.jpg",
+                             "https://images.gr-assets.com/authors/1489760658p8/16588767.jpg",
+                             "https://i.mycdn.me/image?id=817224369045&t=0&plc=WEB&tkn=*Akoj5SSxAXa6sWAau1re5yyuipU"],
+            "biography":{
+               "year":[1905,
+                       1923,
+                       1927,
+                       1931,
+                       1967],
+               "event":["Родился",
+                        "Был выбран секретарём комсомольской организации деревни",
+                        "Секретарь окружной газеты Чырвоная Полаччына",
+                        "Член союза писателей СССР",
+                        "Главыный редактор белорусской энциклопедии"]
+            },
+            "video":"https://www.youtube.com/watch?v=y7q6WXFqP2I",
+            "work":{
+                "book":{
+                  "photo":["https://narbel.bsu.by/wp-content/uploads/2018/07/zbornik-versha-gady-yak-shtorm-1930g-743x1024.jpeg",
+                           "http://s3.gallery.aystatic.by/650/55/627/5016/5016627055_0.jpg",
+                           "https://j.livelib.ru/boocover/1000750652/o/f141/Pyatrus_Bro%D1%9Eka__A_dni_iduts.jpeg",
+                           "http://s5.gallery.aystatic.by/650/519/375/5019/5019375519_0.jpg"],
+                  "name":["Гады як шторм",
+                          "Насустрач сонцу",
+                          "А дні ідуць…",
+                          "Ты — мая пчолка"]
+                },
+                "date":[1930,
+                        1937,
+                        1961,
+                        1972]
+            }
+ 
+         },
+         {
+            "name":"Францишак",
+            "secondName":"Багушевич",
+            "age":60,
+            "birthplace":"Свираны",
+            "avatar":"https://dic.academic.ru/pictures/wiki/files/70/Francisak_Bahusevic.jpg",
+            "photosGallery":["https://www.sb.by/upload/medialibrary/4cf/4cf118f22cb4f447dafa56f5d7eb84df.jpg",
+                             "https://planetabelarus.by/temp_upload/medialibrary/3f8/3f88d779ec580e8e7bc358e382fd6ac7.jpeg",
+                             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Francishak_Bahushevich_-_bf_1890_AD_grey.jpg/267px-Francishak_Bahushevich_-_bf_1890_AD_grey.jpg",
+                             "https://tip.by/wp-content/uploads/2018/04/ai-244417-aux-head-20170321_franciszek_t-1.jpg",
+                             "https://planetabelarus.by/temp_upload/medialibrary/d12/d12187fe08b5dab80a72abcf9e8ae461.jpg"],
+            "biography":{
+               "year":[1840,
+                       1861,
+                       1863,
+                       1869,
+                       1898],
+               "event":["Родился",
+                        "Закончил Вильненскую Академию",
+                        "Активно участвовал в восстаниях",
+                        "Работал следователем в суде",
+                        "Покинул службу в царском суде, чтобы отдаться творчеству"]
+            },
+            "video":"https://www.youtube.com/watch?v=7F2ROTgI7Xo",
+            "work":{
+                "book":{
+                  "photo":["https://www.rulit.me/data/programs/images/tvory_282953.jpg",
+                           "https://www.rulit.me/data/programs/images/belorusskie-poety-xix-nachala-xx-veka_376098.jpg",
+                           "https://www.rulit.me/data/programs/images/kepska-budze_282903.jpg",
+                           "https://lib.rin.ru/cover/big/77/215177.jpg",
+                           "https://upload.wikimedia.org/wikipedia/commons/a/a7/Dudka_bie%C5%82aruskaja_%E2%80%94_Vokladka.jpg"],
+                  "name":["Кепска будзе!",
+                          "Калыханка",
+                          "Праўда",
+                          "Як праўды шукаюць",
+                          "Дудка Беларуская"]
+                },
+                "date":[1885,1885,1886,1887,1891]
+            }
+ 
+         }
+    ]
+}
