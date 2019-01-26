@@ -1,20 +1,16 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Container, Heading, Text } from 'rebass';
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 
 const NotFoundPage = () => (
   <Layout>
-    <Container>
-      <Helmet>
-        <title>Page not found</title>
-      </Helmet>
-
-      <Heading my={3}>Page not found</Heading>
-      <Text is="p" my={3}>
-        The requested page is unavailable.
-      </Text>
-    </Container>
+    <Helmet>
+      <title>Page not found</title>
+    </Helmet>
+    <div>
+      <h3>Page not found</h3>
+      <p>The requested page is unavailable.</p>
+    </div>
   </Layout>
 );
 

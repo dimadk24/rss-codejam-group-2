@@ -1,0 +1,17 @@
+.nav-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: blue;
+}
+.nav-header__item {
+    padding: 25px;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-header__item:hover {
+background-color: red;
+}
