@@ -4,9 +4,7 @@
   "age": "number",
   "birthplace": "string",
   "avatar": "string",
-  "photosGallery": [
-    "string"
-  ],
+  "photosGallery": ["string"],
   "biography": [
     {
       "year": "number",
