@@ -1,0 +1,24 @@
+{
+  "firstName": "string",
+  "secondName": "string",
+  "age": "number",
+  "birthplace": "string",
+  "avatar": "string",
+  "photosGallery": [
+    "string"
+  ],
+  "biography": [
+    {
+      "year": "number",
+      "event": "string"
+    }
+  ],
+  "video": "string",
+  "books": [
+    {
+      "photo": "string",
+      "name": "string",
+      "date": "number"
+    }
+  ]
+}
