@@ -39,7 +39,7 @@ const IndexPage = () => (
             alt="Dmitry"
           />
           <h3>Dmitry Krutolyanov</h3>
-          <a href="https://github.com/DmitryLenko/">
+          <a href="https://github.com/DimaDK24">
             <img
               src="https://res.cloudinary.com/p-d/image/upload/v1548518602/cod-jam-culture/github.svg"
               width="20"
@@ -56,7 +56,7 @@ const IndexPage = () => (
             alt="Yauheni"
           />
           <h3>Yauheni Nemkevich</h3>
-          <a href="https://github.com/DmitryLenko/">
+          <a href="https://github.com/Nemkev">
             <img
               src="https://res.cloudinary.com/p-d/image/upload/v1548518602/cod-jam-culture/github.svg"
               width="20"
