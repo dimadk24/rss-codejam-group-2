@@ -1,0 +1,61 @@
+html, body, main {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.description {
+    height: 800px;
+    background-image: url('https://res.cloudinary.com/p-d/image/upload/v1548513606/cod-jam-culture/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.description h2 {
+    font-size: 400%;
+    color: white;
+}
+
+.author-of-day {
+    flex-direction: row;
+    justify-content: space-around;
+    height: 500px;
+    background-color: gray;
+}
+
+.author-of-day h2 {
+    font-size: 400%;
+    color: white;
+}
+
+.about-us {
+    width: 100%;
+    background-color: white;
+}
+
+.about-us__header {
+    font-size: 200%;
+}
+
+.about-us__container {
+    flex-direction: row;
+    width: 100%;
+}
+
+.about-us__container-item {
+    margin: 50px;
+}
+
+.about-us__container-item img {
+    border-radius: 50%;
+}   
