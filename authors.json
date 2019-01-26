@@ -182,6 +182,326 @@
           "date": 1891
         }
       ]
+    },
+    {
+      "firstName": "Янка",
+      "secondName": "Купала",
+      "age": 60,
+      "birthplace": "Вязынка",
+      "avatar":"http://belarusfacts.by/upload/photos/photo_kultura/literature/kupala.jpg",
+      "photosGallery":[
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Yanka_Kupala.jpg/267px-Yanka_Kupala.jpg",
+        "https://s12.stc.all.kpcdn.net/share/i/4/361222/wx1080.jpg",
+        "https://belaruspartisan.by/upload/iblock/282/282ffa05d17c54a54dab7f83db7a68cd.jpg",
+        "https://minsknews.by/wp-content/uploads/2018/05/yanka-kupala-3.jpg",
+        "https://24smi.org/public/media/2018/12/7/02_l5PwtcN.jpg"
+      ],
+      "biography": [
+        {
+          "year": 1882,
+          "event": "Родился"
+        },
+        {
+          "year": 1902,
+          "event": "работал домашним учителем"
+        },
+        {
+          "year": 1908,
+          "event": "Работал в редакции газеты Наша Нива"
+        },
+        {
+          "year": 1916,
+          "event": "Был призван в армию"
+        },
+        {
+          "year": 1918,
+          "event": "Послевоенный период"
+        }
+      ],
+      "video": "https://www.youtube.com/watch?v=mk746fEHn4w",
+      "books": [
+        {
+          "photo": "http://s3.gallery.aystatic.by/650/165/62/5017/5017062165_0.jpg",
+          "name": "Нікому",
+          "date": 1907
+        },
+        {
+          "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a2/%D0%93%D1%83%D1%81%D0%BB%D1%8F%D1%80_%D0%B2%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0.jpg",
+          "name": "Гусляр",
+          "date": 1910
+        },
+        {
+          "photo": "http://files.knihi.com/preview/Knihi/nlb.by/Kupala/Ot_serdca_1941.pdf/1_300x300.jpeg",
+          "name": "Ад сэрца",
+          "date": 1940
+        },
+        {
+          "photo": "https://biblio.by/media/catalog/product/cache/1/image/1200x1200/9df78eab33525d08d6e5fb8d27136e95/9/7/9789851524217--.jpg",
+          "name": "Тутэйшыя",
+          "date": 1922
+        },
+        {
+          "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/%D0%A0%D0%B0%D1%81%D0%BA%D1%96%D0%B4%D0%B0%D0%BD%D0%B0%D0%B5_%D0%B3%D0%BD%D1%8F%D0%B7%D0%B4%D0%BE_-_%D0%B2%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0.jpg/1200px-%D0%A0%D0%B0%D1%81%D0%BA%D1%96%D0%B4%D0%B0%D0%BD%D0%B0%D0%B5_%D0%B3%D0%BD%D1%8F%D0%B7%D0%B4%D0%BE_-_%D0%B2%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0.jpg",
+          "name": "Раскіданае гняздо",
+          "date": 1913
+        }
+      ]
+    },
+    {
+      "firstName": "Якуб",
+      "secondName": "Колас",
+      "age": 73,
+      "birthplace": "Окинчицы",
+      "avatar":"https://7lafa.com/poetry/yakyb_kolas.jpg",
+      "photosGallery":[
+        "https://upload.wikimedia.org/wikipedia/commons/9/91/%D0%AF%D0%BA%D1%83%D0%B1_%D0%9A%D0%BE%D0%BB%D0%B0%D1%81._%D0%9F%D0%B0%D1%80%D1%82%D1%80%D1%8D%D1%82_%D1%81%D0%B0_%D0%B7%D0%B1%D0%BE%D1%80%D1%83_%D1%82%D0%B2%D0%BE%D1%80%D0%B0%D1%9E_1928_%D0%B3%D0%BE%D0%B4%D0%B0.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/1a/%D0%AF%D0%BA%D1%83%D0%B1_%D0%9A%D0%BE%D0%BB%D0%B0%D1%81_%D1%81%D1%83%D0%BF%D1%80%D0%B0%D1%86%D0%BE%D1%9E%D0%BD%D1%96%D0%BA_%D0%9D%D0%B0%D1%88%D0%B0%D0%B9_%D0%BD%D1%96%D0%B2%D1%8B.jpg",
+        "https://www.belta.by/images/storage/news/000027_1526385761_302768_big.jpg",
+        "https://belarusianheroes.com/img/hero/medium5305331c486d3.jpg",
+        "https://gdb.rferl.org/A81B7721-CFFA-4468-8CED-D4257925A0CF_w1023_r1_s.jpg"
+      ],
+      "biography": [
+        {
+          "year": 1882,
+          "event": "Родился"
+        },
+        {
+          "year": 1906,
+          "event": "Первая публикация"
+        },
+        {
+          "year": 1918,
+          "event": "Работал учителем"
+        },
+        {
+          "year": 1929,
+          "event": "Вице-президент Академии Наук БССР"
+        },
+        {
+          "year": 1946,
+          "event": "Председатель Белорусского республиканского комитета защиты мира"
+        }
+      ],
+      "video": "https://www.youtube.com/watch?v=EPfYYg5QPMg",
+      "books": [
+        {
+          "photo": "http://content.nlb.by/content/dav/nlb/portal/content/File/Portal/InfoResoursy/Kupala_and_Kolas/pictures/Kolas/Pesni_galby_1910.jpg",
+          "name": "Песні-жальбы",
+          "date": 1910
+        },
+        {
+          "photo": "http://delaemvmeste.by/wp-content/uploads/2014/09/Na-rostanyah-oblozhka.jpg",
+          "name": "Водгулле",
+          "date": 1955
+        },
+        {
+          "photo": "https://s2-goods.ozstatic.by/2000/832/557/10/10557832_0.jpg",
+          "name": "На шляхах волi",
+          "date": 1956
+        },
+        {
+          "photo": "http://delaemvmeste.by/wp-content/uploads/2014/09/Novaya-zemlya-oblozhka.jpg",
+          "name": "Новая зямля",
+          "date": 1923
+        },
+        {
+          "photo": "http://s5.gallery.aystatic.by/650/119/526/5021/5021526119_0.jpg",
+          "name": "Рыбакова хата",
+          "date": 1947
+        }
+      ]
+    },
+    {
+      "firstName": "Иван",
+      "secondName": "Шамякин",
+      "age": 83,
+      "birthplace": "Корма",
+      "avatar":"http://martsinovich.of.by/wp-content/uploads/2016/02/%D0%A8%D0%B0%D0%BC%D1%8F%D0%BA%D0%B8%D0%BD.jpg",
+      "photosGallery":[
+        "https://i.livelib.ru/auface/184102/o/daa2/Ivan_Shamyakin.jpg",
+        "https://www.belarus.by/apimages/4862.jpg",
+        "http://lexicon.dobrohot.org/images/6/63/00001001.jpg",
+        "http://delaemvmeste.by/wp-content/uploads/2015/01/Ivan-SHamyakin-vmest-s-chitatelyami.jpg",
+        "http://minsknews.by/wp-content/uploads/2016/03/4-copy-1.jpg"
+      ],
+      "biography": [
+        {
+          "year": 1921,
+          "event": "Родился"
+        },
+        {
+          "year": 1936,
+          "event": "окончил семь классов Маковской школы"
+        },
+        {
+          "year": 1945,
+          "event": "Работал преподавателем языка и литературы"
+        },
+        {
+          "year": 1954,
+          "event": "Заместитель Председателя правления Союза Писателей БССР"
+        },
+        {
+          "year": 1963,
+          "event": "Председатель Верховного Совета БССР"
+        }
+      ],
+      "video": "https://www.youtube.com/watch?v=IzZVBhxbavE",
+      "books": [
+        {
+          "photo": "https://j.livelib.ru/boocover/1002159117/o/fe8a/Ivan_Shamyakin__Sertsa_na_daloni.jpeg",
+          "name": "Сэрца на далоні",
+          "date": 1964
+        },
+        {
+          "photo": "https://j.livelib.ru/boocover/1000515570/200/39ed/Ivan_Shamyakin__Snezhnye_zimy.jpg",
+          "name": "Снежныя зімы",
+          "date": 1968
+        },
+        {
+          "photo": "https://irecommend.ru/sites/default/files/product-images/916794/AacLun0W4SZmZFAuHqaEw.jpg",
+          "name": "Атланты і карыятыды",
+          "date": 1974
+        },
+        {
+          "photo": "http://s5.gallery.aystatic.by/650/968/717/5020/5020717968_0.jpg",
+          "name": "Петроград — Брест",
+          "date": 1981
+        },
+        {
+          "photo": "https://j.livelib.ru/boocover/1000228227/200/023f/Ivan_Shamyakin__Tom_6._Petrograd_%E2%80%95_Brest._Korni_i_vetvi_sbornik.jpg",
+          "name": "Корни и ветви",
+          "date": 1986
+        }
+      ]
+    },
+    {
+      "firstName": "Иван",
+      "secondName": "Шамякин",
+      "age": 83,
+      "birthplace": "Корма",
+      "avatar":"http://martsinovich.of.by/wp-content/uploads/2016/02/%D0%A8%D0%B0%D0%BC%D1%8F%D0%BA%D0%B8%D0%BD.jpg",
+      "photosGallery":[
+        "https://i.livelib.ru/auface/184102/o/daa2/Ivan_Shamyakin.jpg",
+        "https://www.belarus.by/apimages/4862.jpg",
+        "http://lexicon.dobrohot.org/images/6/63/00001001.jpg",
+        "http://delaemvmeste.by/wp-content/uploads/2015/01/Ivan-SHamyakin-vmest-s-chitatelyami.jpg",
+        "http://minsknews.by/wp-content/uploads/2016/03/4-copy-1.jpg"
+      ],
+      "biography": [
+        {
+          "year": 1921,
+          "event": "Родился"
+        },
+        {
+          "year": 1936,
+          "event": "окончил семь классов Маковской школы"
+        },
+        {
+          "year": 1945,
+          "event": "Работал преподавателем языка и литературы"
+        },
+        {
+          "year": 1954,
+          "event": "Заместитель Председателя правления Союза Писателей БССР"
+        },
+        {
+          "year": 1963,
+          "event": "Председатель Верховного Совета БССР"
+        }
+      ],
+      "video": "https://www.youtube.com/watch?v=IzZVBhxbavE",
+      "books": [
+        {
+          "photo": "https://j.livelib.ru/boocover/1002159117/o/fe8a/Ivan_Shamyakin__Sertsa_na_daloni.jpeg",
+          "name": "Сэрца на далоні",
+          "date": 1964
+        },
+        {
+          "photo": "https://j.livelib.ru/boocover/1000515570/200/39ed/Ivan_Shamyakin__Snezhnye_zimy.jpg",
+          "name": "Снежныя зімы",
+          "date": 1968
+        },
+        {
+          "photo": "https://irecommend.ru/sites/default/files/product-images/916794/AacLun0W4SZmZFAuHqaEw.jpg",
+          "name": "Атланты і карыятыды",
+          "date": 1974
+        },
+        {
+          "photo": "http://s5.gallery.aystatic.by/650/968/717/5020/5020717968_0.jpg",
+          "name": "Петроград — Брест",
+          "date": 1981
+        },
+        {
+          "photo": "https://j.livelib.ru/boocover/1000228227/200/023f/Ivan_Shamyakin__Tom_6._Petrograd_%E2%80%95_Brest._Korni_i_vetvi_sbornik.jpg",
+          "name": "Корни и ветви",
+          "date": 1986
+        }
+      ]
+    },
+    {
+      "firstName": "Владимир",
+      "secondName": "Короткевич",
+      "age": 53,
+      "birthplace": "Орша",
+      "avatar":"http://server.audiopedia.su:8888/staroeradio/images/pics/011569.jpg",
+      "photosGallery":[
+        "http://delaemvmeste.by/wp-content/uploads/2013/11/Korotkevich.jpg",
+        "https://mostitsky_universal.academic.ru/pictures/mostitsky_universal/Karatkevich_Uladzimir.jpg",
+        "https://www.belnovosti.by/sites/default/files/blogs/15-12-2016/korotkeviz.jpg",
+        "https://www.syl.ru/misc/i/ai/312064/1761026.jpg",
+        "http://7dney.by/modules/issues/_img/s000535_539693.jpg"
+      ],
+      "biography": [
+        {
+          "year": 1930,
+          "event": "Родился"
+        },
+        {
+          "year": 1936,
+          "event": "Написал первое стихотворение"
+        },
+        {
+          "year": 1949,
+          "event": "Учился на русском отделении филологического факультета"
+        },
+        {
+          "year": 1954,
+          "event": "Работал школьным учителем русского языка и литературы"
+        },
+        {
+          "year": 1958,
+          "event": "Окончил высшие литературные курсы"
+        }
+      ],
+      "video": "https://www.youtube.com/watch?v=TOBB80OpIRI",
+      "books": [
+        {
+          "photo": "https://i.livelib.ru/boocover/1000450436/o/ba3f/Uladzimir_Karatkevich__Kalasy_pad_syarpom_tvaim.jpeg",
+          "name": "Каласы пад сярпом тваім",
+          "date": 1962
+        },
+        {
+          "photo": "https://i.livelib.ru/boocover/1000450435/o/936c/Uladzimir_Karatkevich__Hrystos_pryzyamli%D1%9Esya_%D1%9E_Garodni.jpeg",
+          "name": "Хрыстос прызямліўся ў Гародні",
+          "date": 1968
+        },
+        {
+          "photo": "https://j.livelib.ru/boocover/1000534595/200/cdb5/Uladzimir_Karatkevich__Chorny_zamak_Alshanski.jpg",
+          "name": "Чорны замак Альшанскі",
+          "date": 1974
+        },
+        {
+          "photo": "https://readli.net/wp-content/uploads/2016/04/BC2_1458682444.jpg",
+          "name": "Ладдзя Роспачы",
+          "date": 1978
+        },
+        {
+          "photo": "http://flibusta.site/i/56/318956/cover.jpg",
+          "name": "Крыж Аняліна",
+          "date": 1988
+        }
+      ]
     }
   ]
 }
