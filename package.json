@@ -4,6 +4,8 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "predeploy": "gatsby build --prefix-paths",
+    "deploy": "gh-pages -d public",
     "format": "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,json,md,yml}\"",
     "lint": "npm run lint:es && npm run lint:style",
     "lint:es": "eslint --ignore-path .gitignore \"**/*.{js,jsx}\"",
