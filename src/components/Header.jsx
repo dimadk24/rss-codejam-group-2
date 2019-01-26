@@ -1,20 +1,24 @@
-import { Link as GatsbyLink } from 'gatsby';
+import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
-import { Box, Container, NavLink } from 'rebass';
+import './header.css';
 
-const Header = ({ brand, ...props }) => (
-  <Box is="header" color="white" bg="rebeccapurple" {...props}>
-    <Container>
-      <NavLink is={GatsbyLink} to="/" px={0} my={3}>
-        {brand}
-      </NavLink>
-    </Container>
-  </Box>
+const Header = ({ home, autors, ...props }) => (
+  <header {...props}>
+    <div className="nav-header">
+      <Link className="nav-header__item" to="/">
+        {home}
+      </Link>
+      <Link className="nav-header__item" to="/autors/">
+        {autors}
+      </Link>
+    </div>
+  </header>
 );
 
 Header.propTypes = {
-  brand: PropTypes.node.isRequired,
+  home: PropTypes.node.isRequired,
+  autors: PropTypes.node.isRequired,
 };
 
 export default Header;

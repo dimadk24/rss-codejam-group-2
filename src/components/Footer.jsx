@@ -1,11 +1,10 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { Box, Container } from 'rebass';
 
 const Footer = ({ children, ...props }) => (
-  <Box is="footer" py={4} bg="gray" {...props}>
-    <Container>{children}</Container>
-  </Box>
+  <footer {...props}>
+    <div>{children}</div>
+  </footer>
 );
 
 Footer.propTypes = {
