@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import './header.css';
 
-const Header = ({ home, autors, ...props }) => (
+const Header = ({ home, authors, ...props }) => (
   <header {...props}>
     <div className="nav-header">
       <Link className="nav-header__item" to="/">
         {home}
       </Link>
-      <Link className="nav-header__item" to="/autors/">
-        {autors}
+      <Link className="nav-header__item" to="/authors/">
+        {authors}
       </Link>
     </div>
   </header>
@@ -18,7 +18,7 @@ const Header = ({ home, autors, ...props }) => (
 
 Header.propTypes = {
   home: PropTypes.node.isRequired,
-  autors: PropTypes.node.isRequired,
+  authors: PropTypes.node.isRequired,
 };
 
 export default Header;

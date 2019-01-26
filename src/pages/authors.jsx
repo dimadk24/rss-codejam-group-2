@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 
-const SecondPage = () => (
+const AuthorsPage = () => (
   <Layout>
     <div>
       <h3>Hi from the second page</h3>
@@ -10,4 +10,4 @@ const SecondPage = () => (
   </Layout>
 );
 
-export default SecondPage;
+export default AuthorsPage;
