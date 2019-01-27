@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
+import AuthorTop from '../components/author-top';
 import './index.css';
 
 const IndexPage = () => (
@@ -9,7 +10,7 @@ const IndexPage = () => (
     </section>
     <section className="author-of-day flex-container">
       <h2> Автор дня </h2>
-      <div>loren ipsum</div>
+      <AuthorTop />
     </section>
     <section className="about-us flex-container">
       <h2 className="about-us__header"> O Нас </h2>

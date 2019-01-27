@@ -1,0 +1,12 @@
+.author-container {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: white;
+}
+
+.author-container__image {
+    margin: 20px;
+}
+
+.author-container__title {
+    font-size: 200%;
+}
