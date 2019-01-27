@@ -29,7 +29,6 @@ html, body, main {
 .author-of-day {
     flex-direction: row;
     justify-content: space-around;
-    height: 500px;
     background-color: gray;
 }
 
