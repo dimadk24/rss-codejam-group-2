@@ -1,12 +1,12 @@
-.autor-container {
+.author-container {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     background-color: white;
 }
 
-.autor-container__image {
+.author-container__image {
     margin: 20px;
 }
 
-.autor-container__title {
+.author-container__title {
     font-size: 200%;
 }
