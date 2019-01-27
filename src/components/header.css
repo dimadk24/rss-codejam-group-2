@@ -8,13 +8,16 @@
     width: 100%;
     background-color: transparent;
 }
+
 .nav-header__item {
     padding: 25px;
     margin: 0;
-    color: white;
+    color: #b0a1fb;
     text-decoration: none;
+    transition-duration: .3s;
 }
 
 .nav-header__item:hover {
-background-color: red;
+    background-color: #b0a1fb;
+    color: white;
 }
