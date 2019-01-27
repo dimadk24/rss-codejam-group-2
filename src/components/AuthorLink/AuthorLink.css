@@ -1,0 +1,10 @@
+.author-link a {
+    text-decoration: none;
+    color: #0e32bb;
+    transition-duration: .3s;
+}
+
+.author-link a:active,
+.author-link a:hover {
+    color: #6a84e6;
+}

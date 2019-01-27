@@ -1,6 +1,6 @@
 {
-  "firstName": "string",
-  "secondName": "string",
+  "id": "number",
+  "name": "string",
   "age": "number",
   "birthplace": "string",
   "avatar": "string",

@@ -1,8 +1,8 @@
 {
   "authors": [
     {
-      "firstName": "Янка",
-      "secondName": "Брыль",
+      "id": 1,
+      "name": "Янка Брыль",
       "age": 88,
       "birthplace": "Одесса",
       "avatar": "https://nn.by/img/w800d4/photos/z_2016_07/j_b-xh6tk.jpg",
@@ -60,8 +60,8 @@
       ]
     },
     {
-      "firstName": "Пятрусь",
-      "secondName": "Броука",
+      "id": 2,
+      "name": "Пятрусь Броука",
       "age": 74,
       "birthplace": "Путилковичи",
       "avatar": "https://belarusianheroes.com/img/hero/medium5982277b9f1b5.jpg",
@@ -120,8 +120,8 @@
       ]
     },
     {
-      "firstName": "Францишак",
-      "secondName": "Багушевич",
+      "id": 3,
+      "name": "Францишак Багушевич",
       "age": 60,
       "birthplace": "Свираны",
       "avatar": "https://dic.academic.ru/pictures/wiki/files/70/Francisak_Bahusevic.jpg",
@@ -184,12 +184,12 @@
       ]
     },
     {
-      "firstName": "Янка",
-      "secondName": "Купала",
+      "id": 4,
+      "name": "Янка Купала",
       "age": 60,
       "birthplace": "Вязынка",
-      "avatar":"http://belarusfacts.by/upload/photos/photo_kultura/literature/kupala.jpg",
-      "photosGallery":[
+      "avatar": "http://belarusfacts.by/upload/photos/photo_kultura/literature/kupala.jpg",
+      "photosGallery": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Yanka_Kupala.jpg/267px-Yanka_Kupala.jpg",
         "https://s12.stc.all.kpcdn.net/share/i/4/361222/wx1080.jpg",
         "https://belaruspartisan.by/upload/iblock/282/282ffa05d17c54a54dab7f83db7a68cd.jpg",
@@ -248,12 +248,12 @@
       ]
     },
     {
-      "firstName": "Якуб",
-      "secondName": "Колас",
+      "id": 5,
+      "name": "Якуб Колас",
       "age": 73,
       "birthplace": "Окинчицы",
-      "avatar":"https://7lafa.com/poetry/yakyb_kolas.jpg",
-      "photosGallery":[
+      "avatar": "https://7lafa.com/poetry/yakyb_kolas.jpg",
+      "photosGallery": [
         "https://upload.wikimedia.org/wikipedia/commons/9/91/%D0%AF%D0%BA%D1%83%D0%B1_%D0%9A%D0%BE%D0%BB%D0%B0%D1%81._%D0%9F%D0%B0%D1%80%D1%82%D1%80%D1%8D%D1%82_%D1%81%D0%B0_%D0%B7%D0%B1%D0%BE%D1%80%D1%83_%D1%82%D0%B2%D0%BE%D1%80%D0%B0%D1%9E_1928_%D0%B3%D0%BE%D0%B4%D0%B0.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/1/1a/%D0%AF%D0%BA%D1%83%D0%B1_%D0%9A%D0%BE%D0%BB%D0%B0%D1%81_%D1%81%D1%83%D0%BF%D1%80%D0%B0%D1%86%D0%BE%D1%9E%D0%BD%D1%96%D0%BA_%D0%9D%D0%B0%D1%88%D0%B0%D0%B9_%D0%BD%D1%96%D0%B2%D1%8B.jpg",
         "https://www.belta.by/images/storage/news/000027_1526385761_302768_big.jpg",
@@ -312,12 +312,12 @@
       ]
     },
     {
-      "firstName": "Иван",
-      "secondName": "Шамякин",
+      "id": 6,
+      "name": "Иван Шамякин",
       "age": 83,
       "birthplace": "Корма",
-      "avatar":"http://martsinovich.of.by/wp-content/uploads/2016/02/%D0%A8%D0%B0%D0%BC%D1%8F%D0%BA%D0%B8%D0%BD.jpg",
-      "photosGallery":[
+      "avatar": "http://martsinovich.of.by/wp-content/uploads/2016/02/%D0%A8%D0%B0%D0%BC%D1%8F%D0%BA%D0%B8%D0%BD.jpg",
+      "photosGallery": [
         "https://i.livelib.ru/auface/184102/o/daa2/Ivan_Shamyakin.jpg",
         "https://www.belarus.by/apimages/4862.jpg",
         "http://lexicon.dobrohot.org/images/6/63/00001001.jpg",
@@ -376,76 +376,12 @@
       ]
     },
     {
-      "firstName": "Иван",
-      "secondName": "Шамякин",
-      "age": 83,
-      "birthplace": "Корма",
-      "avatar":"http://martsinovich.of.by/wp-content/uploads/2016/02/%D0%A8%D0%B0%D0%BC%D1%8F%D0%BA%D0%B8%D0%BD.jpg",
-      "photosGallery":[
-        "https://i.livelib.ru/auface/184102/o/daa2/Ivan_Shamyakin.jpg",
-        "https://www.belarus.by/apimages/4862.jpg",
-        "http://lexicon.dobrohot.org/images/6/63/00001001.jpg",
-        "http://delaemvmeste.by/wp-content/uploads/2015/01/Ivan-SHamyakin-vmest-s-chitatelyami.jpg",
-        "http://minsknews.by/wp-content/uploads/2016/03/4-copy-1.jpg"
-      ],
-      "biography": [
-        {
-          "year": 1921,
-          "event": "Родился"
-        },
-        {
-          "year": 1936,
-          "event": "окончил семь классов Маковской школы"
-        },
-        {
-          "year": 1945,
-          "event": "Работал преподавателем языка и литературы"
-        },
-        {
-          "year": 1954,
-          "event": "Заместитель Председателя правления Союза Писателей БССР"
-        },
-        {
-          "year": 1963,
-          "event": "Председатель Верховного Совета БССР"
-        }
-      ],
-      "video": "https://www.youtube.com/watch?v=IzZVBhxbavE",
-      "books": [
-        {
-          "photo": "https://j.livelib.ru/boocover/1002159117/o/fe8a/Ivan_Shamyakin__Sertsa_na_daloni.jpeg",
-          "name": "Сэрца на далоні",
-          "date": 1964
-        },
-        {
-          "photo": "https://j.livelib.ru/boocover/1000515570/200/39ed/Ivan_Shamyakin__Snezhnye_zimy.jpg",
-          "name": "Снежныя зімы",
-          "date": 1968
-        },
-        {
-          "photo": "https://irecommend.ru/sites/default/files/product-images/916794/AacLun0W4SZmZFAuHqaEw.jpg",
-          "name": "Атланты і карыятыды",
-          "date": 1974
-        },
-        {
-          "photo": "http://s5.gallery.aystatic.by/650/968/717/5020/5020717968_0.jpg",
-          "name": "Петроград — Брест",
-          "date": 1981
-        },
-        {
-          "photo": "https://j.livelib.ru/boocover/1000228227/200/023f/Ivan_Shamyakin__Tom_6._Petrograd_%E2%80%95_Brest._Korni_i_vetvi_sbornik.jpg",
-          "name": "Корни и ветви",
-          "date": 1986
-        }
-      ]
-    },
-    {
-      "firstName": "Владимир",
-      "secondName": "Короткевич",
+      "id": 7,
+      "name": "Владимир Короткевич",
       "age": 53,
       "birthplace": "Орша",
-      "avatar":"http://server.audiopedia.su:8888/staroeradio/images/pics/011569.jpg",
-      "photosGallery":[
+      "avatar": "http://server.audiopedia.su:8888/staroeradio/images/pics/011569.jpg",
+      "photosGallery": [
         "http://delaemvmeste.by/wp-content/uploads/2013/11/Korotkevich.jpg",
         "https://mostitsky_universal.academic.ru/pictures/mostitsky_universal/Karatkevich_Uladzimir.jpg",
         "https://www.belnovosti.by/sites/default/files/blogs/15-12-2016/korotkeviz.jpg",

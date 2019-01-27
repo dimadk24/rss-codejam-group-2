@@ -1,0 +1,32 @@
+.wrapper {
+    margin: 100px 10px 0;
+}
+
+.search-wrapper {
+    text-align: right;
+}
+
+.search-input {
+    margin-left: 5px;
+    border: 1px solid black;
+    box-shadow: none;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.text {
+    display: block;
+}
+
+.authors-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.author {
+    padding: 6px;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+}
