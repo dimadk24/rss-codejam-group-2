@@ -20,11 +20,9 @@ const AuthorsTop = () => {
         src={data.avatar}
         height="300"
         width="300"
-        alt={data.firstName}
+        alt={data.name}
       />
-      <p className="author-container__title">
-        {data.firstName} {data.secondName}
-      </p>
+      <p className="author-container__title">{data.name}</p>
     </div>
   );
 };
