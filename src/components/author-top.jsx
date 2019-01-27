@@ -1,5 +1,5 @@
 import React from 'react';
-import { authors } from '../../authors.json';
+import { authors } from '../../data/authors';
 import './author-top.css';
 
 const getRandomAuthor = () => {
