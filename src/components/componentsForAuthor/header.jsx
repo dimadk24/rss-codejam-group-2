@@ -10,11 +10,11 @@ const Header = ({ data }) => (
     </div>
     <h2>Книги</h2>
     <div className="autor-header">
-      {data.books.map((books, index) => (
-        <div key={index} className="autor-header__title flex-container">
-          <h3>{books.name}</h3>
-          <p>{books.date}</p>
-          <img src={books.photo} alt={books.name} height="20%" width="20%" />
+      {data.books.map(book => (
+        <div key={book.id} className="autor-header__title flex-container">
+          <h3>{book.name}</h3>
+          <p>{book.date}</p>
+          <img src={book.photo} alt={book.name} height="20%" width="20%" />
         </div>
       ))}
     </div>

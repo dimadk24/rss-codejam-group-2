@@ -9,9 +9,9 @@ const Author = ({ location }) => {
     <div>
       <Header data={data} />
       <Timeline lineColor="#ddd">
-        {data.biography.map((biography, index) => (
+        {data.biography.map(biography => (
           <TimelineItem
-            key={index}
+            key={biography.id}
             dateText={`${biography.year}`}
             style={{ color: '#e86971' }}
           >
