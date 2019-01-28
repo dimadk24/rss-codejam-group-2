@@ -1,16 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './header.css';
-import SliderGallery from './gallery'
-const Header = ({ data }) => (
+import '../../i18n';
+import SliderGallery from './gallery';
+
+const Header = ({ data, t }) => (
   <div>
     <div>
       <h1>{data.name}</h1>
       <img src={data.avatar} alt={data.name} className="author-image" />
     </div>
-    <h2>Книги</h2>
+    <h2>{t('books')}</h2>
     <div className="author-header">
-    {data.books.map(books => (
+      {data.books.map(books => (
         <div key={books.id}>
           <h3 className="book-name">{books.name}</h3>
           <p className="book-data">{books.date}</p>
@@ -19,13 +21,14 @@ const Header = ({ data }) => (
       ))}
     </div>
     <div>
-      <SliderGallery/>
+      <SliderGallery />
     </div>
   </div>
 );
 
 Header.propTypes = {
   data: PropTypes.instanceOf(Object).isRequired,
+  t: PropTypes.func.isRequired,
 };
 
 export default Header;

@@ -13,7 +13,7 @@ injectGlobal`
   }
 `;
 
-const Layout = ({ children }) => (
+const Layout = ({ children, t }) => (
   <div>
     <StaticQuery
       query={graphql`
@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
       render={data => (
         <Helmet
           titleTemplate={`%s | ${data.site.siteMetadata.title}`}
-          defaultTitle="Writers Culture Portal"
+          defaultTitle={t('pageTitle')}
         >
           <html lang={data.site.siteMetadata.language} />
         </Helmet>
@@ -48,6 +48,7 @@ const Layout = ({ children }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  t: PropTypes.func.isRequired,
 };
 
 export default Layout;

@@ -1,5 +1,7 @@
 import Fuse from 'fuse.js';
+import PropTypes from 'prop-types';
 import React, { Component } from 'react';
+import { withNamespaces } from 'react-i18next';
 import { authors } from '../../data/authors';
 import AuthorLink from '../components/AuthorLink/AuthorLink';
 import Layout from '../components/layout';
@@ -19,21 +21,6 @@ const searcher = (items, searchKeys) => {
   return searchString => fuse.search(searchString);
 };
 
-function getAuthorsAndText({ searching, foundAuthors, allAuthors }) {
-  let authorsForRender;
-  let authorsText;
-  if (searching) {
-    authorsForRender = foundAuthors;
-    if (!authorsForRender.length)
-      authorsText = 'Нету писателей по такому запросу :(';
-    else authorsText = 'Найденные писатели:';
-  } else {
-    authorsForRender = allAuthors;
-    authorsText = 'Наши писатели:';
-  }
-  return { authorsForRender, authorsText };
-}
-
 class AuthorsPage extends Component {
   constructor(props) {
     super(props);
@@ -52,6 +39,21 @@ class AuthorsPage extends Component {
     } else this.setState({ searching: false });
   }
 
+  getAuthorsAndText({ searching, foundAuthors, allAuthors }) {
+    const { t } = this.props;
+    let authorsForRender;
+    let authorsText;
+    if (searching) {
+      authorsForRender = foundAuthors;
+      if (!authorsForRender.length) authorsText = t('noWriters');
+      else authorsText = t('foundWriters');
+    } else {
+      authorsForRender = allAuthors;
+      authorsText = t('ourWriters');
+    }
+    return { authorsForRender, authorsText };
+  }
+
   createSearcher() {
     this.searcher = searcher(authors, ['name', 'birthplace']);
   }
@@ -64,18 +66,19 @@ class AuthorsPage extends Component {
   }
 
   render() {
+    const { t } = this.props;
     const { searching, foundAuthors } = this.state;
-    const { authorsForRender, authorsText } = getAuthorsAndText({
+    const { authorsForRender, authorsText } = this.getAuthorsAndText({
       searching,
       foundAuthors,
       allAuthors: authors,
     });
     return (
-      <Layout>
+      <Layout t={t}>
         <section className="wrapper">
           <div className="search-wrapper">
             <label htmlFor="search-input">
-              Поиск писателей:
+              {t('writersSearch')}
               <input
                 id="search-input"
                 className="search-input"
@@ -91,6 +94,7 @@ class AuthorsPage extends Component {
                   birthplace={author.birthplace}
                   name={author.name}
                   data={author}
+                  t={t}
                 />
               </li>
             ))}
@@ -101,4 +105,8 @@ class AuthorsPage extends Component {
   }
 }
 
-export default AuthorsPage;
+AuthorsPage.propTypes = {
+  t: PropTypes.func.isRequired,
+};
+
+export default withNamespaces()(AuthorsPage);
