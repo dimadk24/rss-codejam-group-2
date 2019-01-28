@@ -9,7 +9,7 @@ const onSelect = e => {
   i18n.changeLanguage(lang);
 };
 
-const Header = ({ home, authors, ...props }) => (
+const Header = ({ t, ...props }) => (
   <header {...props}>
     <div className="nav-header">
       <select
@@ -21,18 +21,17 @@ const Header = ({ home, authors, ...props }) => (
         <option value="by">BE</option>
       </select>
       <Link className="nav-header__item" to="/">
-        {home}
+        {t('menuHome')}
       </Link>
       <Link className="nav-header__item" to="/authors/">
-        {authors}
+        {t('menuAuthors')}
       </Link>
     </div>
   </header>
 );
 
 Header.propTypes = {
-  home: PropTypes.node.isRequired,
-  authors: PropTypes.node.isRequired,
+  t: PropTypes.func.isRequired,
 };
 
 export default Header;
