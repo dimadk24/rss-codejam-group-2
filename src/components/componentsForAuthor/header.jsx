@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './header.css';
-import MyComponent from './gallery'
+import SliderGallery from './gallery'
 const Header = ({ data }) => (
   <div>
     <div>
@@ -19,7 +19,7 @@ const Header = ({ data }) => (
       ))}
     </div>
     <div>
-      <MyComponent/>
+      <SliderGallery/>
     </div>
   </div>
 );

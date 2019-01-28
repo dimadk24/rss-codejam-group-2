@@ -3,30 +3,30 @@ import './header.css';
 import ImageGallery from 'react-image-gallery';
 import PropTypes from 'prop-types';
 
-class MyComponent extends React.Component {
+class SliderGallery extends React.Component {
 
   render() {
 
     const images = [
       {
-        original: 'http://lorempixel.com/250/150/nature/1/',
-        thumbnail: 'http://lorempixel.com/250/150/nature/1/'
+        original: 'http://lorempixel.com/250/150/nature/1/',//Место для json инфы из "photosGallery"
+        thumbnail: 'http://lorempixel.com/250/150/nature/1/'//Место для json инфы из "photosGallery"
       },
       {
-        original: 'http://lorempixel.com/1000/600/nature/2/',
-        thumbnail: 'http://lorempixel.com/250/150/nature/2/'
+        original: 'http://lorempixel.com/1000/600/nature/2/',//Место для json инфы из "photosGallery"
+        thumbnail: 'http://lorempixel.com/250/150/nature/2/'//Место для json инфы из "photosGallery"
       },
       {
-        original: 'http://lorempixel.com/1000/600/nature/3/',
-        thumbnail: 'http://lorempixel.com/250/150/nature/3/'
+        original: 'http://lorempixel.com/1000/600/nature/3/',//Место для json инфы из "photosGallery"
+        thumbnail: 'http://lorempixel.com/250/150/nature/3/'//Место для json инфы из "photosGallery"
       },
       {
-        original: 'http://lorempixel.com/1000/600/nature/2/',
-        thumbnail: 'http://lorempixel.com/250/150/nature/2/'
+        original: 'http://lorempixel.com/1000/600/nature/2/',//Место для json инфы из "photosGallery"
+        thumbnail: 'http://lorempixel.com/250/150/nature/2/'//Место для json инфы из "photosGallery"
       },
       {
-        original: 'http://lorempixel.com/1000/600/nature/2/',
-        thumbnail: 'http://lorempixel.com/250/150/nature/2/'
+        original: 'http://lorempixel.com/1000/600/nature/2/',//Место для json инфы из "photosGallery"
+        thumbnail: 'http://lorempixel.com/250/150/nature/2/'//Место для json инфы из "photosGallery"
       }
     ]
 
@@ -37,7 +37,7 @@ class MyComponent extends React.Component {
 
 }
 
-MyComponent.propTypes = {
+SliderGallery.propTypes = {
     data: PropTypes.instanceOf(Object).isRequired,
   };
-export default MyComponent;
+export default SliderGallery;
