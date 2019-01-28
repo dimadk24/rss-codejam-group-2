@@ -2,41 +2,38 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+
 .author-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px;
     border-radius: 3%;
     background: #e6e6e6;
     color: black;
 }
 
-.author-header__title {
-    height: 30%;
-    width: 30%;
-}
-
-.autor-image {
+.author-image {
     height: 40%;
     width: 40%;
-    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
 .book-name {
+    text-align: center;
     padding: 10px 0px;
 }
 
 .book-data {
+    text-align: center;
     margin: 10px 10px;
 }
 
 .book-image {
-    height: 40%;
-    width: 40%;
+    display: block;
+    margin: 0 auto;
+    height: 20%;
+    width: 20%;
     padding: 10 10px;
-    min-width: 40%;
-    min-height: 40%;
+    
 }

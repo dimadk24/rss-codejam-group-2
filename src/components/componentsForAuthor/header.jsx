@@ -6,12 +6,12 @@ const Header = ({ data }) => (
   <div>
     <div>
       <h1>{data.name}</h1>
-      <img src={data.avatar} alt={data.name} className="autor-image" />
+      <img src={data.avatar} alt={data.name} className="author-image" />
     </div>
     <h2>Книги</h2>
-    <div className="autor-header">
+    <div className="author-header">
       {data.books.map((books, index) => (
-        <div key={index} className="autor-header__title">
+        <div key={index}>
           <h3 className="book-name">{books.name}</h3>
           <p className="book-data">{books.date}</p>
           <img src={books.photo} alt={books.name} className="book-image" />
