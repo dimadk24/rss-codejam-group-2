@@ -5,6 +5,11 @@ import SliderGallery from './gallery';
 
 const Header = ({ data }) => (
   <div>
+        <select>
+        <option>RU</option>
+        <option>BE</option>
+        <option>EN</option>
+      </select>
     <div>
       <h1>{data.name}</h1>
       <img src={data.avatar} alt={data.name} className="author-image" />

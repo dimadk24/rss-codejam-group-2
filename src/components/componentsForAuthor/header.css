@@ -8,6 +8,12 @@ h2 {
     text-align: center;
 }
 
+select {
+    border:  'none';
+    background: 'transparent';
+    outline: 'none';
+}
+
 .author-header {
     border-radius: 3%;
     background: #e6e6e6;
