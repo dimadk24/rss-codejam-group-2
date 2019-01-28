@@ -9,4 +9,6 @@
 
 .author-container__title {
     font-size: 200%;
+    color: black;
+    text-decoration: none;
 }
