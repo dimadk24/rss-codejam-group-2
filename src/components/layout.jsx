@@ -36,7 +36,7 @@ const Layout = ({ children, t }) => (
       )}
     />
 
-    <Header home="Home" authors="Authors" />
+    <Header t={t} />
 
     <main>{children}</main>
 
