@@ -39,3 +39,18 @@ h2 {
     padding: 10 10px;
     
 }
+
+.image-gallery {
+    width: 100%;
+}
+
+.image-gallery-image {
+    display: flex;
+    justify-content: center;
+}
+
+.image-gallery-image img {
+    width: 50%;
+    height: 600px;
+}
+
