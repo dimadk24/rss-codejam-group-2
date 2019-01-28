@@ -9,9 +9,9 @@ const Header = ({ data }) => (
       <img src={data.avatar} alt={data.name} height="20%" width="20%" />
     </div>
     <h2>Книги</h2>
-    <div className="autor-header">
+    <div className="author-header">
       {data.books.map(book => (
-        <div key={book.id} className="autor-header__title flex-container">
+        <div key={book.id} className="author-header__title flex-container">
           <h3>{book.name}</h3>
           <p>{book.date}</p>
           <img src={book.photo} alt={book.name} height="20%" width="20%" />
