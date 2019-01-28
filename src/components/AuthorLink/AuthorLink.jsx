@@ -6,7 +6,7 @@ import './AuthorLink.css';
 function AuthorLink({ name, birthplace, data }) {
   return (
     <div className="author-link">
-      <Link to="/autor/" state={{ author: data }}>
+      <Link to="/author/" state={{ author: data }}>
         {name}.
       </Link>
       <span> Город рождения: {birthplace}</span>

@@ -2,7 +2,7 @@ h1 {
     text-align: center;
 }
 
-.autor-header {
+.author-header {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -14,7 +14,7 @@ h1 {
     color: black;
 }
 
-.autor-header__title {
+.author-header__title {
     height: 30%;
     width: 30%;
 }

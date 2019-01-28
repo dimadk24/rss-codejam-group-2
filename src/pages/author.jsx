@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
-import Header from '../components/componentsForAutor/header';
+import Header from '../components/componentsForAuthor/header';
 
 const Author = ({ location }) => {
   const data = location.state.author;
@@ -9,9 +9,9 @@ const Author = ({ location }) => {
     <div>
       <Header data={data} />
       <Timeline lineColor="#ddd">
-        {data.biography.map((biography, index) => (
+        {data.biography.map(biography => (
           <TimelineItem
-            key={index}
+            key={biography.id}
             dateText={`${biography.year}`}
             style={{ color: '#e86971' }}
           >
