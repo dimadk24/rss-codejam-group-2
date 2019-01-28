@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import Helmet from 'react-helmet';
 import { injectGlobal } from 'styled-components';
-import Footer from './footer';
 import Header from './header';
 
 injectGlobal`
@@ -39,16 +38,12 @@ const Layout = ({ children, t }) => (
     <Header t={t} />
 
     <main>{children}</main>
-
-    <Footer>
-      <p align="center">Sticky footer</p>
-    </Footer>
   </div>
 );
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  t: PropTypes.func.isRequired,
+  t: PropTypes.instanceOf(Function).isRequired,
 };
 
 export default Layout;
