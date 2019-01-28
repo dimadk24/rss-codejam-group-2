@@ -2,6 +2,7 @@ import { graphql, StaticQuery } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import Helmet from 'react-helmet';
+import { withNamespaces } from 'react-i18next';
 import { injectGlobal } from 'styled-components';
 import Header from './header';
 
@@ -46,4 +47,4 @@ Layout.propTypes = {
   t: PropTypes.func.isRequired,
 };
 
-export default Layout;
+export default withNamespaces()(Layout);
