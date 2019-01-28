@@ -87,7 +87,11 @@ class AuthorsPage extends Component {
           <ul className="authors-list">
             {authorsForRender.map(author => (
               <li key={author.id} className="author">
-                <AuthorLink birthplace={author.birthplace} name={author.name} />
+                <AuthorLink
+                  birthplace={author.birthplace}
+                  name={author.name}
+                  data={author}
+                />
               </li>
             ))}
           </ul>
