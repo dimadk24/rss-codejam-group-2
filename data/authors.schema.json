@@ -3,6 +3,7 @@
   "name": "string",
   "age": "number",
   "birthplace": "string",
+  "location": "string",
   "avatar": "string",
   "photosGallery": ["string"],
   "biography": [

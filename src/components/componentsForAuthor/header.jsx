@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './header.css';
-import SliderGallery from './gallery'
+import SliderGallery from './gallery';
+
 const Header = ({ data }) => (
   <div>
     <div>
@@ -10,7 +11,7 @@ const Header = ({ data }) => (
     </div>
     <h2>Книги</h2>
     <div className="author-header">
-    {data.books.map(books => (
+      {data.books.map(books => (
         <div key={books.id}>
           <h3 className="book-name">{books.name}</h3>
           <p className="book-data">{books.date}</p>
@@ -19,7 +20,7 @@ const Header = ({ data }) => (
       ))}
     </div>
     <div>
-      <SliderGallery/>
+      <SliderGallery data={data} />
     </div>
   </div>
 );
