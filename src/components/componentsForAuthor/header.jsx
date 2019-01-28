@@ -2,8 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './header.css';
 import SliderGallery from './gallery';
+import '../../i18n';
 
-const Header = ({ data }) => (
+const Header = ({ data, t }) => (
   <div>
     <select>
       <option>RU</option>
@@ -14,7 +15,7 @@ const Header = ({ data }) => (
       <h1>{data.name}</h1>
       <img src={data.avatar} alt={data.name} className="author-image" />
     </div>
-    <h2>Книги</h2>
+    <h2>{t('books')}</h2>
     <div className="author-header">
       {data.books.map(books => (
         <div key={books.id}>
@@ -33,6 +34,7 @@ const Header = ({ data }) => (
 
 Header.propTypes = {
   data: PropTypes.instanceOf(Object).isRequired,
+  t: PropTypes.func.isRequired,
 };
 
 export default Header;
