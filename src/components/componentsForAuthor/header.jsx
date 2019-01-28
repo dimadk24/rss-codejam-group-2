@@ -5,7 +5,7 @@ import SliderGallery from './gallery';
 
 const Header = ({ data }) => (
   <div>
-        <select>
+      <select>
         <option>RU</option>
         <option>BE</option>
         <option>EN</option>
