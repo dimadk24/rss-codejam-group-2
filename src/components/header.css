@@ -1,3 +1,10 @@
+select {
+    display: inline;
+    border: 'none';
+    background: 'transparent';
+    outline: 'none';
+}
+
 .nav-header {
     display: flex;
     flex-direction: row;

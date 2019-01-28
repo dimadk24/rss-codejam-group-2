@@ -1,11 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './header.css';
-import '../../i18n';
 import SliderGallery from './gallery';
+import '../../i18n';
 
 const Header = ({ data, t }) => (
   <div>
+      <select>
+        <option>RU</option>
+        <option>BE</option>
+        <option>EN</option>
+      </select>
     <div>
       <h1>{data.name}</h1>
       <img src={data.avatar} alt={data.name} className="author-image" />
@@ -17,11 +22,12 @@ const Header = ({ data, t }) => (
           <h3 className="book-name">{books.name}</h3>
           <p className="book-data">{books.date}</p>
           <img src={books.photo} alt={books.name} className="book-image" />
+          <button>Показать видео</button>
         </div>
       ))}
     </div>
     <div>
-      <SliderGallery />
+      <SliderGallery data={data} />
     </div>
   </div>
 );

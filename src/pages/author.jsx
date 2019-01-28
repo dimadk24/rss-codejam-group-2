@@ -3,9 +3,13 @@ import PropTypes from 'prop-types';
 import { withNamespaces } from 'react-i18next';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 import Header from '../components/componentsForAuthor/header';
+import Location from '../components/location/location';
 import '../i18n';
 
 const Author = ({ location, t }) => {
+  if (!location.state) {
+    return <div />;
+  }
   const data = location.state.author;
   return (
     <div>
@@ -21,6 +25,7 @@ const Author = ({ location, t }) => {
           </TimelineItem>
         ))}
       </Timeline>
+      <Location data={data.location} />
     </div>
   );
 };
