@@ -22,7 +22,7 @@ const Header = ({ data, t }) => (
           <h3 className="book-name">{books.name}</h3>
           <p className="book-data">{books.date}</p>
           <img src={books.photo} alt={books.name} className="book-image" />
-          <button>{t('buttonShowVideo')}</button>
+          <button type="button">{t('buttonShowVideo')}</button>
         </div>
       ))}
     </div>
