@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './header.css';
-
+import MyComponent from './gallery'
 const Header = ({ data }) => (
   <div>
     <div>
@@ -17,6 +17,9 @@ const Header = ({ data }) => (
           <img src={books.photo} alt={books.name} className="book-image" />
         </div>
       ))}
+    </div>
+    <div>
+      <MyComponent/>
     </div>
   </div>
 );
