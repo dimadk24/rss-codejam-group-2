@@ -43,7 +43,7 @@ const Layout = ({ children, t }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  t: PropTypes.instanceOf(Function).isRequired,
+  t: PropTypes.func.isRequired,
 };
 
 export default Layout;
