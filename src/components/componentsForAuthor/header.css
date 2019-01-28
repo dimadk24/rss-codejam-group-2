@@ -1,5 +1,13 @@
 @import "../../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 
+button {
+    padding: 10px 10px;
+    height: 5%;
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
 h1 {
     text-align: center;
 }
@@ -61,4 +69,3 @@ select {
     height: 100%;
     max-height: 800px;
 }
-
