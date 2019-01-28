@@ -11,7 +11,7 @@ const Header = ({ data }) => (
     <h2>Книги</h2>
     <div className="author-header">
     {data.books.map(books => (
-        <div key={books.id} className="autor-header__title">
+        <div key={books.id}>
           <h3 className="book-name">{books.name}</h3>
           <p className="book-data">{books.date}</p>
           <img src={books.photo} alt={books.name} className="book-image" />
