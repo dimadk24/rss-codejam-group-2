@@ -2,8 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 import Header from '../components/componentsForAuthor/header';
+import Location from '../components/location/location';
 
 const Author = ({ location }) => {
+  if (!location.state) {
+    return <div />;
+  }
   const data = location.state.author;
   return (
     <div>
@@ -19,6 +23,7 @@ const Author = ({ location }) => {
           </TimelineItem>
         ))}
       </Timeline>
+      <Location data={data.location} />
     </div>
   );
 };

@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
       render={data => (
         <Helmet
           titleTemplate={`%s | ${data.site.siteMetadata.title}`}
-          defaultTitle={data.site.siteMetadata.title}
+          defaultTitle="Writers Culture Portal"
         >
           <html lang={data.site.siteMetadata.language} />
         </Helmet>
