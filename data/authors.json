@@ -15,22 +15,27 @@
       ],
       "biography": [
         {
+          "id": 1,
           "year": 1917,
           "event": "Родился"
         },
         {
+          "id": 2,
           "year": 1922,
           "event": "Вернулся на родину отца в деревню Загорье"
         },
         {
+          "id": 3,
           "year": 1939,
           "event": "Был призван в войско польское"
         },
         {
+          "id": 4,
           "year": 1945,
           "event": "Стал членом Союза писателей СССР"
         },
         {
+          "id": 5,
           "year": 1994,
           "event": "Почётный член Национальной академии наук Беларусии"
         }
@@ -38,21 +43,25 @@
       "video": "https://www.youtube.com/watch?v=Ci1yzGPisVA",
       "books": [
         {
+          "id": 1,
           "photo": "http://borlib.by/images/saek/bryl-ya-vybranyya-apavyadanni---0001.jpg",
           "name": "Апавяданні",
           "date": 1946
         },
         {
+          "id": 2,
           "photo": "https://j.livelib.ru/workpic/1002637598/200/8341/Yanka_Bryl__Nemanskie_kazaki.jpg",
           "name": "Нёманскія казакі",
           "date": 1947
         },
         {
+          "id": 3,
           "photo": "https://i.livelib.ru/workpic/1002702739/200/e33a/Yanka_Bryl__Sirochy_hleb.jpg",
           "name": "Сірочы хлеб",
           "date": 1947
         },
         {
+          "id": 4,
           "photo": "https://j.livelib.ru/boocover/1000747034/140/6ae2/Yanka_Bryl__Pishu_yak_zhyvu.jpg",
           "name": "Пішу як жыву",
           "date": 1994
@@ -75,22 +84,27 @@
       ],
       "biography": [
         {
+          "id": 1,
           "year": 1905,
           "event": "Родился"
         },
         {
+          "id": 2,
           "year": 1923,
           "event": "Был выбран секретарём комсомольской организации деревни"
         },
         {
+          "id": 3,
           "year": 1927,
           "event": "Секретарь окружной газеты Чырвоная Полаччына"
         },
         {
+          "id": 4,
           "year": 1931,
           "event": "Член союза писателей СССР"
         },
         {
+          "id": 5,
           "year": 1967,
           "event": "Главный редактор белорусской энциклопедии"
         }
@@ -98,21 +112,25 @@
       "video": "https://www.youtube.com/watch?v=y7q6WXFqP2I",
       "books": [
         {
+          "id": 1,
           "photo": "https://narbel.bsu.by/wp-content/uploads/2018/07/zbornik-versha-gady-yak-shtorm-1930g-743x1024.jpeg",
           "name": "Гады як шторм",
           "date": 1930
         },
         {
+          "id": 2,
           "photo": "http://s3.gallery.aystatic.by/650/55/627/5016/5016627055_0.jpg",
           "name": "Насустрач сонцу",
           "date": 1937
         },
         {
+          "id": 3,
           "photo": "https://j.livelib.ru/boocover/1000750652/o/f141/Pyatrus_Bro%D1%9Eka__A_dni_iduts.jpeg",
           "name": "А дні ідуць…",
           "date": 1961
         },
         {
+          "id": 4,
           "photo": "http://s5.gallery.aystatic.by/650/519/375/5019/5019375519_0.jpg",
           "name": "Ты — мая пчолка",
           "date": 1972
@@ -134,22 +152,27 @@
       ],
       "biography": [
         {
+          "id": 1,
           "year": 1840,
           "event": "Родился"
         },
         {
+          "id": 2,
           "year": 1861,
           "event": "Закончил Вильненскую Академию"
         },
         {
+          "id": 3,
           "year": 1863,
           "event": "Активно участвовал в восстаниях"
         },
         {
+          "id": 4,
           "year": 1869,
           "event": "Работал следователем в суде"
         },
         {
+          "id": 5,
           "year": 1898,
           "event": "Покинул службу в царском суде, чтобы отдаться творчеству"
         }
@@ -157,26 +180,31 @@
       "video": "https://www.youtube.com/watch?v=7F2ROTgI7Xo",
       "books": [
         {
+          "id": 1,
           "photo": "https://www.rulit.me/data/programs/images/tvory_282953.jpg",
           "name": "Кепска будзе!",
           "date": 1885
         },
         {
+          "id": 2,
           "photo": "https://www.rulit.me/data/programs/images/belorusskie-poety-xix-nachala-xx-veka_376098.jpg",
           "name": "Калыханка",
           "date": 1885
         },
         {
+          "id": 3,
           "photo": "https://www.rulit.me/data/programs/images/kepska-budze_282903.jpg",
           "name": "Праўда",
           "date": 1886
         },
         {
+          "id": 4,
           "photo": "https://lib.rin.ru/cover/big/77/215177.jpg",
           "name": "Як праўды шукаюць",
           "date": 1887
         },
         {
+          "id": 5,
           "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Dudka_bie%C5%82aruskaja_%E2%80%94_Vokladka.jpg",
           "name": "Дудка Беларуская",
           "date": 1891
@@ -198,22 +226,27 @@
       ],
       "biography": [
         {
+          "id": 1,
           "year": 1882,
           "event": "Родился"
         },
         {
+          "id": 2,
           "year": 1902,
           "event": "работал домашним учителем"
         },
         {
+          "id": 3,
           "year": 1908,
           "event": "Работал в редакции газеты Наша Нива"
         },
         {
+          "id": 4,
           "year": 1916,
           "event": "Был призван в армию"
         },
         {
+          "id": 5,
           "year": 1918,
           "event": "Послевоенный период"
         }
@@ -221,26 +254,31 @@
       "video": "https://www.youtube.com/watch?v=mk746fEHn4w",
       "books": [
         {
+          "id": 1,
           "photo": "http://s3.gallery.aystatic.by/650/165/62/5017/5017062165_0.jpg",
           "name": "Нікому",
           "date": 1907
         },
         {
+          "id": 2,
           "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a2/%D0%93%D1%83%D1%81%D0%BB%D1%8F%D1%80_%D0%B2%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0.jpg",
           "name": "Гусляр",
           "date": 1910
         },
         {
+          "id": 3,
           "photo": "http://files.knihi.com/preview/Knihi/nlb.by/Kupala/Ot_serdca_1941.pdf/1_300x300.jpeg",
           "name": "Ад сэрца",
           "date": 1940
         },
         {
+          "id": 4,
           "photo": "https://biblio.by/media/catalog/product/cache/1/image/1200x1200/9df78eab33525d08d6e5fb8d27136e95/9/7/9789851524217--.jpg",
           "name": "Тутэйшыя",
           "date": 1922
         },
         {
+          "id": 5,
           "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/%D0%A0%D0%B0%D1%81%D0%BA%D1%96%D0%B4%D0%B0%D0%BD%D0%B0%D0%B5_%D0%B3%D0%BD%D1%8F%D0%B7%D0%B4%D0%BE_-_%D0%B2%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0.jpg/1200px-%D0%A0%D0%B0%D1%81%D0%BA%D1%96%D0%B4%D0%B0%D0%BD%D0%B0%D0%B5_%D0%B3%D0%BD%D1%8F%D0%B7%D0%B4%D0%BE_-_%D0%B2%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0.jpg",
           "name": "Раскіданае гняздо",
           "date": 1913
@@ -262,22 +300,27 @@
       ],
       "biography": [
         {
+          "id": 1,
           "year": 1882,
           "event": "Родился"
         },
         {
+          "id": 2,
           "year": 1906,
           "event": "Первая публикация"
         },
         {
+          "id": 3,
           "year": 1918,
           "event": "Работал учителем"
         },
         {
+          "id": 4,
           "year": 1929,
           "event": "Вице-президент Академии Наук БССР"
         },
         {
+          "id": 5,
           "year": 1946,
           "event": "Председатель Белорусского республиканского комитета защиты мира"
         }
@@ -285,26 +328,31 @@
       "video": "https://www.youtube.com/watch?v=EPfYYg5QPMg",
       "books": [
         {
+          "id": 1,
           "photo": "http://content.nlb.by/content/dav/nlb/portal/content/File/Portal/InfoResoursy/Kupala_and_Kolas/pictures/Kolas/Pesni_galby_1910.jpg",
           "name": "Песні-жальбы",
           "date": 1910
         },
         {
+          "id": 2,
           "photo": "http://delaemvmeste.by/wp-content/uploads/2014/09/Na-rostanyah-oblozhka.jpg",
           "name": "Водгулле",
           "date": 1955
         },
         {
+          "id": 3,
           "photo": "https://s2-goods.ozstatic.by/2000/832/557/10/10557832_0.jpg",
           "name": "На шляхах волi",
           "date": 1956
         },
         {
+          "id": 4,
           "photo": "http://delaemvmeste.by/wp-content/uploads/2014/09/Novaya-zemlya-oblozhka.jpg",
           "name": "Новая зямля",
           "date": 1923
         },
         {
+          "id": 5,
           "photo": "http://s5.gallery.aystatic.by/650/119/526/5021/5021526119_0.jpg",
           "name": "Рыбакова хата",
           "date": 1947
@@ -326,22 +374,27 @@
       ],
       "biography": [
         {
+          "id": 1,
           "year": 1921,
           "event": "Родился"
         },
         {
+          "id": 2,
           "year": 1936,
           "event": "окончил семь классов Маковской школы"
         },
         {
+          "id": 3,
           "year": 1945,
           "event": "Работал преподавателем языка и литературы"
         },
         {
+          "id": 4,
           "year": 1954,
           "event": "Заместитель Председателя правления Союза Писателей БССР"
         },
         {
+          "id": 5,
           "year": 1963,
           "event": "Председатель Верховного Совета БССР"
         }
@@ -349,26 +402,31 @@
       "video": "https://www.youtube.com/watch?v=IzZVBhxbavE",
       "books": [
         {
+          "id": 1,
           "photo": "https://j.livelib.ru/boocover/1002159117/o/fe8a/Ivan_Shamyakin__Sertsa_na_daloni.jpeg",
           "name": "Сэрца на далоні",
           "date": 1964
         },
         {
+          "id": 2,
           "photo": "https://j.livelib.ru/boocover/1000515570/200/39ed/Ivan_Shamyakin__Snezhnye_zimy.jpg",
           "name": "Снежныя зімы",
           "date": 1968
         },
         {
+          "id": 3,
           "photo": "https://irecommend.ru/sites/default/files/product-images/916794/AacLun0W4SZmZFAuHqaEw.jpg",
           "name": "Атланты і карыятыды",
           "date": 1974
         },
         {
+          "id": 4,
           "photo": "http://s5.gallery.aystatic.by/650/968/717/5020/5020717968_0.jpg",
           "name": "Петроград — Брест",
           "date": 1981
         },
         {
+          "id": 5,
           "photo": "https://j.livelib.ru/boocover/1000228227/200/023f/Ivan_Shamyakin__Tom_6._Petrograd_%E2%80%95_Brest._Korni_i_vetvi_sbornik.jpg",
           "name": "Корни и ветви",
           "date": 1986
@@ -390,22 +448,27 @@
       ],
       "biography": [
         {
+          "id": 1,
           "year": 1930,
           "event": "Родился"
         },
         {
+          "id": 2,
           "year": 1936,
           "event": "Написал первое стихотворение"
         },
         {
+          "id": 3,
           "year": 1949,
           "event": "Учился на русском отделении филологического факультета"
         },
         {
+          "id": 4,
           "year": 1954,
           "event": "Работал школьным учителем русского языка и литературы"
         },
         {
+          "id": 5,
           "year": 1958,
           "event": "Окончил высшие литературные курсы"
         }
@@ -413,26 +476,31 @@
       "video": "https://www.youtube.com/watch?v=TOBB80OpIRI",
       "books": [
         {
+          "id": 1,
           "photo": "https://i.livelib.ru/boocover/1000450436/o/ba3f/Uladzimir_Karatkevich__Kalasy_pad_syarpom_tvaim.jpeg",
           "name": "Каласы пад сярпом тваім",
           "date": 1962
         },
         {
+          "id": 2,
           "photo": "https://i.livelib.ru/boocover/1000450435/o/936c/Uladzimir_Karatkevich__Hrystos_pryzyamli%D1%9Esya_%D1%9E_Garodni.jpeg",
           "name": "Хрыстос прызямліўся ў Гародні",
           "date": 1968
         },
         {
+          "id": 3,
           "photo": "https://j.livelib.ru/boocover/1000534595/200/cdb5/Uladzimir_Karatkevich__Chorny_zamak_Alshanski.jpg",
           "name": "Чорны замак Альшанскі",
           "date": 1974
         },
         {
+          "id": 4,
           "photo": "https://readli.net/wp-content/uploads/2016/04/BC2_1458682444.jpg",
           "name": "Ладдзя Роспачы",
           "date": 1978
         },
         {
+          "id": 5,
           "photo": "http://flibusta.site/i/56/318956/cover.jpg",
           "name": "Крыж Аняліна",
           "date": 1988
