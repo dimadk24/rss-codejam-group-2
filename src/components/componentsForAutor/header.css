@@ -2,9 +2,19 @@ h1 {
     text-align: center;
 }
 
-.header-background {
+.autor-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 3%;
     background: #e6e6e6;
     color: black;
-    border-radius: 3%;
-    padding: 20px;
+}
+
+.autor-header__title {
+    height: 30%;
+    width: 30%;
 }

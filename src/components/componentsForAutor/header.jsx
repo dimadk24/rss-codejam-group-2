@@ -1,25 +1,28 @@
-import React from "react"
-import "./header.css"
+import React from 'react';
+import PropTypes from 'prop-types';
+import './header.css';
 
-export default () => <div>
-<div>
-  <h1>Имя автора</h1>
-</div>
-<h2>Книги</h2>
-  <div className="header-background">
-    <h3>Название книги</h3>
-    <p>Дата публикации</p>
-
-    <h3>Название книги</h3>
-    <p>Дата публикации</p>
-
-    <h3>Название книги</h3>
-    <p>Дата публикации</p>
-
-    <h3>Название книги</h3>
-    <p>Дата публикации</p>
-    
-    <h3>Название книги</h3>
-    <p>Дата публикации</p>
+const Header = ({ data }) => (
+  <div>
+    <div>
+      <h1>{data.name}</h1>
+      <img src={data.avatar} alt={data.name} height="20%" width="20%" />
+    </div>
+    <h2>Книги</h2>
+    <div className="autor-header">
+      {data.books.map((books, index) => (
+        <div key={index} className="autor-header__title flex-container">
+          <h3>{books.name}</h3>
+          <p>{books.date}</p>
+          <img src={books.photo} alt={books.name} height="20%" width="20%" />
+        </div>
+      ))}
+    </div>
   </div>
-</div>
+);
+
+Header.propTypes = {
+  data: PropTypes.instanceOf(Object).isRequired,
+};
+
+export default Header;
