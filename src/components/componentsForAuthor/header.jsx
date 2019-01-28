@@ -1,16 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './header.css';
+import ChangeLanguageSelect from '../ChangeLanguageSelect/ChangeLanguageSelect';
 import SliderGallery from './gallery';
 import '../../i18n';
 
 const Header = ({ data, t }) => (
   <div>
-    <select>
-      <option>RU</option>
-      <option>BE</option>
-      <option>EN</option>
-    </select>
+    <ChangeLanguageSelect />
     <div>
       <h1>{data.name}</h1>
       <img src={data.avatar} alt={data.name} className="author-image" />
